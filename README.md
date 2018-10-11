@@ -1,2 +1,2 @@
-# kakao-clone
-Kakao clone coding
+# kakao_clone
+kakao talk clone coding (practice)
