@@ -1,59 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Friends(Kakao talk clone coding)</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-    </head>
-    <body>
-        <header>
-            <div class="header__top">
-                <div class="header__cloumn">
-                    <i class="fas fa-fighter-jet"></i>
-                    <i class="fas fa-wifi"></i>
-                </div>
-                <div class="header__cloumn">
-                    <span class="header__time">18:38</span>
-                </div>
-                <div class="header__cloumn">
-                    <i class="fas fa-moon"></i>
-                    <i class="fab fa-bluetooth-b"></i>
-                    <span class="header__battery">66% <i class="fa fa-battery-full"></i> </span>
-                </div>
-            </div>
-            <div class="header__bottom">
-                <div class="header__colunm">
-                    <span class="header__text">Manage</span>
-                </div>
-                <div class="header__colunm">
-                    <span class="header__text">Friend</span>
-                </div>
-                <div class="header__colunm">
-                    <i class="fa fa-cog fa-lg"></i>
-                </div>
-            </div>
-        </header>
-        <nav class="tab-bar">
-            <a href="index.html" class="tab-bar__tab">
-                <i class="fa fa-user"></i>
-                <span class="tab-bar__title">Friends</span>
-            </a>
-                
-            <a href="chats.html" class="tab-bar__tab">
-                <i class="fa fa-comment"></i>
-                <span class="tab-bar__title">Chats</span>
-            </a>
-                
-            <a href="find.html" class="tab-bar__tab">
-                <i class="fa fa-search"></i>
-                <span class="tab-bar__title">Find</span>
-            </a>
 
-            <a href="more.html" class="tab-bar__tab">
-                <i class="fa fa-user"></i>
-                <span class="tab-bar__title">More</span>
-            </a>
-        </nav>
-    </body>
+<head>
+    <title>Friends(Kakao talk clone coding)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <div class="header__cloumn">
+                <i class="fas fa-fighter-jet"></i>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="header__cloumn">
+                <span class="header__time">18:38</span>
+            </div>
+            <div class="header__cloumn">
+                <i class="fas fa-moon"></i>
+                <i class="fab fa-bluetooth-b"></i>
+                <span class="header__battery">66% <i class="fa fa-battery-full"></i> </span>
+            </div>
+        </div>
+
+        <div class="header__bottom">
+            <div class="header__colunm">
+                <span class="header__text">Manage</span>
+            </div>
+            <div class="header__colunm">
+                <span class="header__text">Friend</span>
+            </div>
+            <div class="header__colunm">
+                <i class="fa fa-cog fa-lg"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="friends">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Find friends,charts, Plus Friends">
+        </div>
+        <section class="friends__section">
+            <header>
+                <h6 class="friends__section-title">My Profile</h6>
+            </header>
+            <div class="friends__section-rows">
+                <div class="friends__section-row">
+                    <img src="" alt="">
+                    <span class="friends__section-name">Parkoon</span>
+                </div>
+                <div class="friends__section-row">
+                    <img src="" alt="">
+                    <span class="friends__section-name">Friends'Names Display</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="friend__section">
+            <header class="friends__section-header">
+                <h6 class="friends_section-title"></h6>
+            </header>
+        </section>
+        <div class="friends__section-rows">
+            <div class="friends__section-row">
+                <div class="friends__section-column">
+                    <img src="" alt="">
+                    <span class="friends__section-name">Federer</span>
+                </div>
+            </div>
+            <span class="friends__section-tagline">
+                Life is short. So live your life.
+            </span>
+        </div>
+    </main>
+
+
+    <nav class="tab-bar">
+        <a href="index.html" class="tab-bar__tab">
+            <i class="fa fa-user"></i>
+            <span class="tab-bar__title">Friends</span>
+        </a>
+
+        <a href="chats.html" class="tab-bar__tab">
+            <i class="fa fa-comment"></i>
+            <span class="tab-bar__title">Chats</span>
+        </a>
+
+        <a href="find.html" class="tab-bar__tab">
+            <i class="fa fa-search"></i>
+            <span class="tab-bar__title">Find</span>
+        </a>
+
+        <a href="more.html" class="tab-bar__tab">
+            <i class="fa fa-user"></i>
+            <span class="tab-bar__title">More</span>
+        </a>
+    </nav>
+</body>
+
 </html>
