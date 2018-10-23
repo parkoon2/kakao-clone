@@ -1,0 +1,14 @@
+.search {
+    margin: 10px 10px;
+    /* box-sizing: border-box; */
+
+}
+
+.search input {
+    background-color: antiquewhite;
+    border: 0;
+    width: 100%;
+    padding: 10px 0px;
+    text-align:center;
+    border-radius: 5px;
+}

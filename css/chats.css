@@ -1,0 +1,49 @@
+.section__chats img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 10px 5px 10px;
+}
+
+/* .section__chats {
+    display: flex;
+    flex-direction: row;
+} */
+.section__chats-name {
+    font-weight: 600;
+}
+
+.section__chats-message {
+    color: gray;
+    font-size: 15px;
+}
+.section__chats-list {
+    display: flex;
+    flex-direction: row;
+}
+.section__chats-content {
+    width: 100%;
+    /* 이게 맞는지 모르겠음... 영상 다시 확인 */
+}
+
+.section__chats-time {
+    font-size: 12px;
+    color: gray;
+}
+.section__chats-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.section__chats-list {
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 10px;
+}
+/* 
+.section__chats-list .section__chats-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */

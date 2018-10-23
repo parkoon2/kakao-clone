@@ -1,0 +1,21 @@
+.header-top {
+    background-color: brown;
+    color: white;
+    width: 100%;
+}
+
+.header__top, .header__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__top {
+    padding: 10px 5px;
+}
+
+.header__bottom {
+    padding: 15px 5px;
+    /* font-size: 22px */
+}
+

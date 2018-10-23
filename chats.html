@@ -2,100 +2,109 @@
 <html lang="en">
 
 <head>
-    <title>Friends(Kakao talk clone coding)</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KAKAO CLONE CODING</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
 
+    <header class="header-top">
         <div class="header__top">
-            <div class="header__cloumn">
-                <i class="fas fa-fighter-jet"></i>
-                <i class="fas fa-wifi"></i>
+            <div class="header__column">
+                <i class="fab fa-apple"></i>
+                <span class="header__status">Globe</span>
+                <i class="fab fa-apple"></i>
             </div>
-            <div class="header__cloumn">
-                <span class="header__time">18:38</span>
+            <div class="header__column">
+                <span class="header__time">17:01</span>
             </div>
-            <div class="header__cloumn">
-                <i class="fas fa-moon"></i>
-                <i class="fab fa-bluetooth-b"></i>
-                <span class="header__battery">66% <i class="fa fa-battery-full"></i></span>
+            <div class="header__column">
+                <span class="header__battery">48%</span>
+
             </div>
         </div>
         <div class="header__bottom">
-            <div class="header__colunm">
+            <div class="header__column">
                 <span class="header__text">Edit</span>
             </div>
-            <div class="header__colunm">
-                <span class="header__text">Chats <i class="fa fa-cret-down"></i></span>
+            <div class="header__column">
+                <span class="header__text">Chats</span>
+                <i class="fab fa-apple"></i>
+            </div>
+            <div class="header__column">
+                <i class="fab fa-apple"></i>
             </div>
         </div>
-
     </header>
-
     <main class="chats">
-        <div class="search-bar">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Find friends,charts, Plus Friends">
+        <div class="search">
+            <input type="text" placeholder="Find friends, chats, Plus Friends">
         </div>
-
-        <ul class="chats__list">
-            <li class="chats__chat">
-                <div class="chat__content">
-                    <img src="images/avatar.jpg" alt="">
-                    <div class="chat__preview">
-                        <h3 class="chat__user">Lynn</h3>
-                        <span class="chat__last-message"> Hello! this is last message</span>
+        <section class="section__chats">
+            <div class="section__chats-list">
+                <img src="images/user.png" alt="">
+                <div class="section__chats-content">
+                    <header class="section__chats-header">
+                        <div class="section__chats-name">LYNN</div>
+                        <div class="section__chats-time">10:22</div>
+                    </header>
+                    <div class="section__chats-message">
+                        Hello, what a surprise!
                     </div>
                 </div>
-                <span class="chat__date-time">
-                    15:55
-                </span>
-            </li>
-            <li class="chats__chat">
-                <div class="chat__content">
-                    <img src="images/avatar.jpg" alt="">
-                    <div class="chat__preview">
-                        <h3 class="chat__user">KakaoTalk</h3>
-                        <span class="chat__last-message"> You logged into KakaoTalk PC</span>
+            </div>
+            <div class="section__chats-list">
+                <img src="images/user.png" alt="">
+                <div class="section__chats-content">
+                    <header class="section__chats-header">
+                        <div class="section__chats-name">LYNN</div>
+                        <div class="section__chats-time">10:22</div>
+                    </header>
+                    <div class="section__chats-message">
+                        Hello, what a surprise!
                     </div>
                 </div>
-                <span class="chat__date-time">
-                    Jul 21:55
-                </span>
-            </li>
-        </ul>
-
-        <div class="chat-btn">
-            <i class="fas fa-comment"></i>
-        </div>
+            </div>
+            <div class="section__chats-list">
+                <img src="images/user.png" alt="">
+                <div class="section__chats-content">
+                    <header class="section__chats-header">
+                        <div class="section__chats-name">LYNN</div>
+                        <div class="section__chats-time">10:22</div>
+                    </header>
+                    <div class="section__chats-message">
+                        Hello, what a surprise!
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <nav class="navigation">
+        <div class="nav__column">
+            <i class="fab fa-apple fa-2x"></i>
+            <span class="nav__column-title">Friends</span>
+        </div>
+        <div class="nav__column tab">
+            <i class="fab fa-apple fa-2x"></i>
+            <span class="nav__column-title">Chats</span>
 
+        </div>
+        <div class="nav__column">
+            <i class="fab fa-apple fa-2x"></i>
+            <span class="nav__column-title">Find</span>
 
-    <nav class="tab-bar">
-        <a href="index.html" class="tab-bar__tab">
-            <i class="fa fa-user"></i>
-            <span class="tab-bar__title">Friends</span>
-        </a>
-
-        <a href="chats.html" class="tab-bar__tab">
-            <i class="fa fa-comment"></i>
-            <span class="tab-bar__title">Chats</span>
-        </a>
-
-        <a href="find.html" class="tab-bar__tab">
-            <i class="fa fa-search"></i>
-            <span class="tab-bar__title">Find</span>
-        </a>
-
-        <a href="more.html" class="tab-bar__tab">
-            <i class="fa fa-user"></i>
-            <span class="tab-bar__title">More</span>
-        </a>
+        </div>
+        <div class="nav__column">
+            <i class="fab fa-apple fa-2x"></i>
+            <span class="nav__column-title">More</span>
+        </div>
     </nav>
+
 </body>
 
 </html>
