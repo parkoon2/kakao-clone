@@ -1,14 +1,19 @@
 .search {
-    margin: 10px 10px;
+    margin: 10px 15px;
     /* box-sizing: border-box; */
-
 }
 
 .search input {
-    background-color: antiquewhite;
+    background-color: #F1F2F3;
     border: 0;
     width: 100%;
-    padding: 10px 0px;
+    box-sizing: border-box;
+    padding: 10px 12px;
     text-align:center;
     border-radius: 5px;
+}
+
+.search input:focus {
+    outline: none;
+    border: 1px solid yellow;
 }

@@ -4,7 +4,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: mintcream;
+    background-color: #F7F7F7;
 }
 
 .navigation .nav__column {
@@ -12,14 +12,24 @@
     flex-direction: column;
     align-items: center;
     padding: 10px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     color: gray;
+    text-decoration: none;
+    
+}
+
+.navigation .nav__column:hover {
+    cursor: pointer;
 }
 
 .navigation .nav__column.tab {
-    color: tomato;
+    color: #523636;
 }
 
 .nav__column-title {
     font-size: 12px;
+    margin-top: 5px;
+
 }
 

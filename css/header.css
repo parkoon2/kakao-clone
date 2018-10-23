@@ -1,5 +1,5 @@
 .header-top {
-    background-color: brown;
+    background-color: #523636;
     color: white;
     width: 100%;
 }
@@ -11,11 +11,26 @@
 }
 
 .header__top {
-    padding: 10px 5px;
+    padding: 12px 10px;
+}
+.header__number {
+    color: yellow
 }
 
 .header__bottom {
-    padding: 15px 5px;
+    padding: 12px 15px;
     /* font-size: 22px */
+}
+.header__column {
+    width: 33%;
+}
+
+.header__column:nth-child(2) {
+    text-align: center;
+    font-weight: 600;
+}
+
+.header__column:last-child {
+    text-align: right;
 }
 
